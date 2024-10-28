@@ -1,0 +1,49 @@
+.device-registration {
+  background-color: #ffffff; /* White background for registration card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px; /* Set a max-width for the card */
+  transition: transform 0.3s ease;
+  text-align: center; /* Center align the text */
+}
+
+.device-registration:hover {
+  transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db; /* Highlight border on focus */
+  outline: none;
+}
+
+/* Label Styling */
+label {
+  color: #333;
+  font-size: 1.1em;
+}
+
+/* Message Styling */
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #3498db; /* Message color */
+  text-align: center; /* Center align message */
+}

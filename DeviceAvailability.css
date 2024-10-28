@@ -1,0 +1,38 @@
+.device-availability {
+  background-color: #ffffff; /* White background for availability card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px; /* Set a max-width for the card */
+  transition: transform 0.3s ease;
+  text-align: center; /* Center align the text */
+}
+
+.device-availability:hover {
+  transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+/* Input Styling */
+.small-input {
+  width: 80%; /* Smaller width for input boxes */
+  padding: 8px; /* Reduced padding for a more compact look */
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px; /* Smaller font size */
+  transition: border 0.3s ease;
+}
+
+.small-input:focus {
+  border-color: #3498db; /* Highlight border on focus */
+  outline: none;
+}
+
+/* Result Styling */
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #3498db; /* Result color */
+  text-align: center; /* Center align the result message */
+}

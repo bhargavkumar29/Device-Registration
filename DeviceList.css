@@ -1,0 +1,43 @@
+.device-list {
+    background-color: #ffffff; /* White background for the device list */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px; /* Set a max-width for the card */
+    text-align: center; /* Center align the text */
+  }
+  
+  .device-list h2 {
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 10px; /* Space above the table */
+  }
+  
+  th, td {
+    padding: 10px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ccc; /* Border for cells */
+  }
+  
+  th {
+    background-color: #f0f0f0; /* Header background color */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9; /* Light background on row hover */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+  }
+  
